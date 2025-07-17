@@ -4,9 +4,6 @@ Chào mừng bạn đến với EduMarket! 👋
 
 Đây là một dự án web application mà tôi đã phát triển - một nền tảng thương mại điện tử chuyên về giáo dục, tích hợp công nghệ AI để gợi ý khóa học phù hợp. Ý tưởng xuất phát từ việc muốn tạo ra một không gian học tập hiện đại, nơi người dùng có thể dễ dàng tìm kiếm và khám phá các khóa học theo sở thích cá nhân.
 
-## ✨ Tại sao tôi tạo ra dự án này?
-
-Trong thời đại số hóa, việc học tập trực tuyến ngày càng phổ biến. Tuy nhiên, với hàng ngàn khóa học có sẵn, việc tìm ra khóa học phù hợp với bản thân lại trở nên khó khăn. Vì thế, tôi quyết định xây dựng EduMarket - một nền tảng không chỉ hiển thị danh sách khóa học, mà còn có thể hiểu và gợi ý dựa trên hành vi người dùng.
 
 ## 🎯 Tính năng 
 
@@ -34,7 +31,7 @@ Trong thời đại số hóa, việc học tập trực tuyến ngày càng ph�
 
 Tôi chọn stack công nghệ hiện đại để đảm bảo hiệu suất và trải nghiệm tốt nhất:
 
-- **React 18** + **TypeScript** - Cho UI mượt mà và type safety
+- **React ** + **TypeScript** - Cho UI mượt mà và type safety
 - **Tailwind CSS** - Styling nhanh chóng và responsive
 - **Framer Motion** - Animations đẹp mắt
 - **Lucide React** - Icons hiện đại
@@ -85,33 +82,6 @@ yarn build
 
 Folder `build` sẽ chứa các file đã được tối ưu hóa cho production.
 
-## 📁 Cấu trúc code như thế nào?
-
-Tôi tổ chức code theo cấu trúc rõ ràng, dễ maintain:
-
-```
-src/
-├── components/          # Các component tái sử dụng
-│   ├── Header.tsx       # Navigation header
-│   ├── HeroSection.tsx  # Landing section với hiệu ứng
-│   ├── ProductCard.tsx  # Card hiển thị khóa học
-│   ├── ProductModal.tsx # Modal chi tiết khóa học
-│   ├── SearchBar.tsx    # Thanh tìm kiếm và filter
-│   ├── Footer.tsx       # Footer của website
-│   └── Skeleton.tsx     # Loading placeholders
-├── pages/              # Các trang chính
-│   ├── HomePage.tsx     # Trang chủ
-│   ├── FavoritesPage.tsx # Trang yêu thích
-│   └── HistoryPage.tsx  # Trang lịch sử
-├── services/           # API services
-│   └── api.ts          # Mock API và data handling
-├── hooks/              # Custom hooks
-│   └── index.ts        # Hooks cho favorites và history
-├── types/              # TypeScript definitions
-│   └── index.ts        # Interface cho data
-└── App.tsx             # Main component
-```
-
 ## 🎨 Thiết kế UI/UX
 
 Tôi thiết kế giao diện theo hướng modern và user-friendly:
@@ -158,28 +128,13 @@ Tôi có kế hoạch phát triển thêm những tính năng sau:
 - 💬 **Review System** - Đánh giá và bình luận
 - 🌍 **Multi-language** - Hỗ trợ đa ngôn ngữ
 
-## 🤝 Đóng góp
-
-Nếu bạn muốn đóng góp cho dự án:
-
-1. Fork repository
-2. Tạo branch mới: `git checkout -b feature/your-feature`
-3. Commit changes: `git commit -m 'Add some feature'`
-4. Push to branch: `git push origin feature/your-feature`
-5. Tạo Pull Request
 
 ## 📧 Liên hệ
 
 Nếu bạn có câu hỏi hoặc góp ý về dự án, hãy liên hệ:
 
-- Email: support@gmail.com
-- GitHub: [Your GitHub Profile]
+Email: lammytrangst2014@gmail.com
 
-## � License
-
-Dự án này được phát hành dưới MIT License. Bạn có thể sử dụng, chỉnh sửa và phân phối tự do.
-
----
 
 **Cảm ơn bạn đã quan tâm đến EduMarket! 🚀**
 
