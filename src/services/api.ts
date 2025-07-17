@@ -1,14 +1,14 @@
-import axios from 'axios';
+// import axios from 'axios';
 import { Product, ApiResponse, SuggestionRequest } from '../types';
 
-// Mock API base URL
-const API_BASE_URL = 'https://jsonplaceholder.typicode.com';
 
-// Create axios instance
-const api = axios.create({
-  baseURL: API_BASE_URL,
-  timeout: 5000,
-});
+//const API_BASE_URL = 'https://jsonplaceholder.typicode.com';
+
+
+// const api = axios.create({
+//   baseURL: API_BASE_URL,
+//   timeout: 5000,
+// });
 
 // Mock data for educational products
 const mockProducts: Product[] = [
